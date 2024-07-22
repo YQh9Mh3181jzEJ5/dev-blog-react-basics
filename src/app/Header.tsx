@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <div>
         <nav className="text-sm font-medium">
-          <Link href="articles/new" className="bg-gray-800 p-3 rounded-sm">
+          <Link href="articles/new" className="bg-gray-800 p-3 rounded">
             記事を書く
           </Link>
         </nav>
