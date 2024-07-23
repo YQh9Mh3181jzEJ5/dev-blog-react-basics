@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "next.js14-udemy",
+      "title": "Next.js14-を学ぶ",
+      "content": "udemyで学びました",
+      "createdAt": "2024/07/24"
+    },
+    {
+      "id": "json-server-udemy",
+      "title": "JSON-serverを学ぶ",
+      "content": "udemyで学びました！",
+      "createdAt": "2024/07/22"
+    }
+  ]
+}
