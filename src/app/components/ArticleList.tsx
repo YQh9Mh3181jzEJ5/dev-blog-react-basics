@@ -11,9 +11,9 @@ const ArticleList = ({ articles }: articleListProps) => {
   return (
     <div>
       {articles.map((article) => {
-        // random image
-        const randomNum = Math.floor(Math.random() * 100);
-        const randomImg = `https://picsum.photos/id/${randomNum}/1920/1080`;
+        // const randomNum = Math.floor(Math.random() * 100);
+
+        const randomImg = `https://picsum.photos/id/${article.id}/1920/1080`;
         return (
           <article className="shadow my-4" key={article.id}>
             <Link
